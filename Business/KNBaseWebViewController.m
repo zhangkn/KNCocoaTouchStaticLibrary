@@ -260,14 +260,20 @@ static  CGFloat const statusBarViewHeight = 20;
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
     //    [MBProgressHUD hideHUD];
-    [IPLoadingTool StopLoading];
+//    [IPLoadingTool StopLoading];
+    [HCPPopLoadingDialog dismiss];
+
     
 }
 
 - (void)webViewDidStartLoad:(UIWebView *)webView
 {
     //    [MBProgressHUD showMessage:@"正在加载..."];
-    [IPLoadingTool StartLoading];
+//    [IPLoadingTool StartLoading];
+    
+    [HCPPopLoadingDialog show];
+
+
 }
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error

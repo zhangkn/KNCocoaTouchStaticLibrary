@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UIWebView+TS_JavaScriptContext.h"
+#import "HCPPopLoadingDialog.h"
 
 
 /**
