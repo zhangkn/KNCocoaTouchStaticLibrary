@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E16E5DA91F051E7900851E01 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */; };
+		E16E5DAA1F051E7900851E01 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */; };
+		E16E5DAB1F051E7900851E01 /* HCPCMPayProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DA61F051E7900851E01 /* HCPCMPayProgress.xib */; };
+		E16E5DAC1F051E7900851E01 /* HCPPopLoadingDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA81F051E7900851E01 /* HCPPopLoadingDialog.m */; };
+		E16E5DAD1F051E7900851E01 /* HCPPopLoadingDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA81F051E7900851E01 /* HCPPopLoadingDialog.m */; };
+		E16E5DB21F051EE800851E01 /* KNTestWebViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */; };
+		E16E5DB61F051FD500851E01 /* hebaoGrayPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DB31F051FD500851E01 /* hebaoGrayPoint.png */; };
+		E16E5DB71F051FD500851E01 /* hebaoWhitePoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DB41F051FD500851E01 /* hebaoWhitePoint.png */; };
+		E16E5DB81F051FD500851E01 /* IMG_3604.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DB51F051FD500851E01 /* IMG_3604.JPG */; };
 		E1CA7CB31F05194700736B6E /* KNCocoaTouchStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */; };
 		E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */; };
 		E1CA7D011F051AB700736B6E /* CMPayConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CF51F051AB700736B6E /* CMPayConst.m */; };
@@ -30,6 +39,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				E16E5DB21F051EE800851E01 /* KNTestWebViewController.h in CopyFiles */,
 				E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +47,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E16E5DA31F051E1400851E01 /* KNStaticBundle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KNStaticBundle-Prefix.pch"; sourceTree = "<group>"; };
+		E16E5DA41F051E7900851E01 /* HCPCMPayProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPCMPayProgress.h; sourceTree = "<group>"; };
+		E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPCMPayProgress.m; sourceTree = "<group>"; };
+		E16E5DA61F051E7900851E01 /* HCPCMPayProgress.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCPCMPayProgress.xib; sourceTree = "<group>"; };
+		E16E5DA71F051E7900851E01 /* HCPPopLoadingDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPPopLoadingDialog.h; sourceTree = "<group>"; };
+		E16E5DA81F051E7900851E01 /* HCPPopLoadingDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPPopLoadingDialog.m; sourceTree = "<group>"; };
+		E16E5DB31F051FD500851E01 /* hebaoGrayPoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebaoGrayPoint.png; sourceTree = "<group>"; };
+		E16E5DB41F051FD500851E01 /* hebaoWhitePoint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hebaoWhitePoint.png; sourceTree = "<group>"; };
+		E16E5DB51F051FD500851E01 /* IMG_3604.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3604.JPG; sourceTree = "<group>"; };
+		E16E5DBB1F0521D400851E01 /* KNCocoaTouchStaticLibrary-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KNCocoaTouchStaticLibrary-Prefix.pch"; sourceTree = "<group>"; };
 		E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKNCocoaTouchStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNCocoaTouchStaticLibrary.h; sourceTree = "<group>"; };
 		E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNCocoaTouchStaticLibrary.m; sourceTree = "<group>"; };
@@ -75,6 +95,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E16E5DAE1F051E7D00851E01 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E16E5DAF1F051E8600851E01 /* progress */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		E16E5DAF1F051E8600851E01 /* progress */ = {
+			isa = PBXGroup;
+			children = (
+				E16E5DA41F051E7900851E01 /* HCPCMPayProgress.h */,
+				E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */,
+				E16E5DA61F051E7900851E01 /* HCPCMPayProgress.xib */,
+				E16E5DA71F051E7900851E01 /* HCPPopLoadingDialog.h */,
+				E16E5DA81F051E7900851E01 /* HCPPopLoadingDialog.m */,
+			);
+			name = progress;
+			sourceTree = "<group>";
+		};
+		E16E5DB01F051E9300851E01 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CFB1F051AB700736B6E /* KNBaseWebViewController.h */,
+				E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */,
+			);
+			name = BaseVC;
+			sourceTree = "<group>";
+		};
+		E16E5DB11F051ED700851E01 /* PublicInterface */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */,
+				E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */,
+			);
+			name = PublicInterface;
+			sourceTree = "<group>";
+		};
+		E16E5DB91F051FDA00851E01 /* RES */ = {
+			isa = PBXGroup;
+			children = (
+				E16E5DB31F051FD500851E01 /* hebaoGrayPoint.png */,
+				E16E5DB41F051FD500851E01 /* hebaoWhitePoint.png */,
+				E16E5DB51F051FD500851E01 /* IMG_3604.JPG */,
+			);
+			name = RES;
+			sourceTree = "<group>";
+		};
 		E1CA7CA51F05194700736B6E = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */,
+				E16E5DBB1F0521D400851E01 /* KNCocoaTouchStaticLibrary-Prefix.pch */,
 				E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */,
 			);
 			path = KNCocoaTouchStaticLibrary;
@@ -106,6 +175,7 @@
 		E1CA7CEE1F051A2500736B6E /* KNStaticBundle */ = {
 			isa = PBXGroup;
 			children = (
+				E16E5DA31F051E1400851E01 /* KNStaticBundle-Prefix.pch */,
 				E1CA7CEF1F051A2500736B6E /* Info.plist */,
 			);
 			path = KNStaticBundle;
@@ -114,6 +184,8 @@
 		E1CA7CF31F051A6800736B6E /* Business */ = {
 			isa = PBXGroup;
 			children = (
+				E16E5DB91F051FDA00851E01 /* RES */,
+				E16E5DAE1F051E7D00851E01 /* Tool */,
 				E1CA7CF41F051AB700736B6E /* CMPayConst.h */,
 				E1CA7CF51F051AB700736B6E /* CMPayConst.m */,
 				E1CA7CF61F051AB700736B6E /* HCPEnvrionmentalVariables.h */,
@@ -121,10 +193,8 @@
 				E1CA7CF81F051AB700736B6E /* HSSingleton.h */,
 				E1CA7CF91F051AB700736B6E /* IPLoadingTool.h */,
 				E1CA7CFA1F051AB700736B6E /* IPLoadingTool.m */,
-				E1CA7CFB1F051AB700736B6E /* KNBaseWebViewController.h */,
-				E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */,
-				E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */,
-				E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */,
+				E16E5DB01F051E9300851E01 /* BaseVC */,
+				E16E5DB11F051ED700851E01 /* PublicInterface */,
 				E1CA7CFF1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.h */,
 				E1CA7D001F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m */,
 			);
@@ -212,6 +282,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16E5DB81F051FD500851E01 /* IMG_3604.JPG in Resources */,
+				E16E5DAB1F051E7900851E01 /* HCPCMPayProgress.xib in Resources */,
+				E16E5DB61F051FD500851E01 /* hebaoGrayPoint.png in Resources */,
+				E16E5DB71F051FD500851E01 /* hebaoWhitePoint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +303,8 @@
 				E1CA7D031F051AB700736B6E /* HCPEnvrionmentalVariables.m in Sources */,
 				E1CA7D071F051AB700736B6E /* KNBaseWebViewController.m in Sources */,
 				E1CA7D051F051AB700736B6E /* IPLoadingTool.m in Sources */,
+				E16E5DA91F051E7900851E01 /* HCPCMPayProgress.m in Sources */,
+				E16E5DAC1F051E7900851E01 /* HCPPopLoadingDialog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,8 +312,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E16E5DAD1F051E7900851E01 /* HCPPopLoadingDialog.m in Sources */,
 				E1CA7D0C1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m in Sources */,
 				E1CA7D061F051AB700736B6E /* IPLoadingTool.m in Sources */,
+				E16E5DAA1F051E7900851E01 /* HCPCMPayProgress.m in Sources */,
 				E1CA7D081F051AB700736B6E /* KNBaseWebViewController.m in Sources */,
 				E1CA7D041F051AB700736B6E /* HCPEnvrionmentalVariables.m in Sources */,
 				E1CA7D021F051AB700736B6E /* CMPayConst.m in Sources */,
@@ -343,6 +421,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KNCocoaTouchStaticLibrary/KNCocoaTouchStaticLibrary-Prefix.pch";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -357,6 +437,8 @@
 			buildSettings = {
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KNCocoaTouchStaticLibrary/KNCocoaTouchStaticLibrary-Prefix.pch";
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -373,6 +455,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KNStaticBundle/KNStaticBundle-Prefix.pch";
 				INFOPLIST_FILE = KNStaticBundle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
@@ -391,6 +475,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
 				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KNStaticBundle/KNStaticBundle-Prefix.pch";
 				INFOPLIST_FILE = KNStaticBundle/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;

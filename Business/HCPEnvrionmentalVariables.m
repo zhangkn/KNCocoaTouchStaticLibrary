@@ -11,6 +11,7 @@
 @implementation HCPEnvrionmentalVariables
 
 
+
 //+ (id)sharedInstance {
 //    static dispatch_once_t once;
 //    static id instance;
