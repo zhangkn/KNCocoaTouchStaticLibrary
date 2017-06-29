@@ -1,0 +1,267 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1CA7CB31F05194700736B6E /* KNCocoaTouchStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */; };
+		E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1CA7CAC1F05194700736B6E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKNCocoaTouchStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNCocoaTouchStaticLibrary.h; sourceTree = "<group>"; };
+		E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNCocoaTouchStaticLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1CA7CAB1F05194700736B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1CA7CA51F05194700736B6E = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CB01F05194700736B6E /* KNCocoaTouchStaticLibrary */,
+				E1CA7CAF1F05194700736B6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1CA7CAF1F05194700736B6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1CA7CB01F05194700736B6E /* KNCocoaTouchStaticLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */,
+				E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */,
+			);
+			path = KNCocoaTouchStaticLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1CA7CAD1F05194700736B6E /* KNCocoaTouchStaticLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CA7CB71F05194700736B6E /* Build configuration list for PBXNativeTarget "KNCocoaTouchStaticLibrary" */;
+			buildPhases = (
+				E1CA7CAA1F05194700736B6E /* Sources */,
+				E1CA7CAB1F05194700736B6E /* Frameworks */,
+				E1CA7CAC1F05194700736B6E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNCocoaTouchStaticLibrary;
+			productName = KNCocoaTouchStaticLibrary;
+			productReference = E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1CA7CA61F05194700736B6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hisun;
+				TargetAttributes = {
+					E1CA7CAD1F05194700736B6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUV5KWMMAV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1CA7CA91F05194700736B6E /* Build configuration list for PBXProject "KNCocoaTouchStaticLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1CA7CA51F05194700736B6E;
+			productRefGroup = E1CA7CAF1F05194700736B6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1CA7CAD1F05194700736B6E /* KNCocoaTouchStaticLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1CA7CAA1F05194700736B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CA7CB31F05194700736B6E /* KNCocoaTouchStaticLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1CA7CB51F05194700736B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1CA7CB61F05194700736B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1CA7CB81F05194700736B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E1CA7CB91F05194700736B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1CA7CA91F05194700736B6E /* Build configuration list for PBXProject "KNCocoaTouchStaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA7CB51F05194700736B6E /* Debug */,
+				E1CA7CB61F05194700736B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CA7CB71F05194700736B6E /* Build configuration list for PBXNativeTarget "KNCocoaTouchStaticLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA7CB81F05194700736B6E /* Debug */,
+				E1CA7CB91F05194700736B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1CA7CA61F05194700736B6E /* Project object */;
+}
