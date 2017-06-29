@@ -9,6 +9,18 @@
 /* Begin PBXBuildFile section */
 		E1CA7CB31F05194700736B6E /* KNCocoaTouchStaticLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */; };
 		E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */; };
+		E1CA7D011F051AB700736B6E /* CMPayConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CF51F051AB700736B6E /* CMPayConst.m */; };
+		E1CA7D021F051AB700736B6E /* CMPayConst.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CF51F051AB700736B6E /* CMPayConst.m */; };
+		E1CA7D031F051AB700736B6E /* HCPEnvrionmentalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CF71F051AB700736B6E /* HCPEnvrionmentalVariables.m */; };
+		E1CA7D041F051AB700736B6E /* HCPEnvrionmentalVariables.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CF71F051AB700736B6E /* HCPEnvrionmentalVariables.m */; };
+		E1CA7D051F051AB700736B6E /* IPLoadingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CFA1F051AB700736B6E /* IPLoadingTool.m */; };
+		E1CA7D061F051AB700736B6E /* IPLoadingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CFA1F051AB700736B6E /* IPLoadingTool.m */; };
+		E1CA7D071F051AB700736B6E /* KNBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */; };
+		E1CA7D081F051AB700736B6E /* KNBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */; };
+		E1CA7D091F051AB700736B6E /* KNTestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */; };
+		E1CA7D0A1F051AB700736B6E /* KNTestWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */; };
+		E1CA7D0B1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7D001F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m */; };
+		E1CA7D0C1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CA7D001F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +40,32 @@
 		E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKNCocoaTouchStaticLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CA7CB11F05194700736B6E /* KNCocoaTouchStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNCocoaTouchStaticLibrary.h; sourceTree = "<group>"; };
 		E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNCocoaTouchStaticLibrary.m; sourceTree = "<group>"; };
+		E1CA7CED1F051A2500736B6E /* KNStaticBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNStaticBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1CA7CEF1F051A2500736B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1CA7CF41F051AB700736B6E /* CMPayConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMPayConst.h; sourceTree = "<group>"; };
+		E1CA7CF51F051AB700736B6E /* CMPayConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPayConst.m; sourceTree = "<group>"; };
+		E1CA7CF61F051AB700736B6E /* HCPEnvrionmentalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPEnvrionmentalVariables.h; sourceTree = "<group>"; };
+		E1CA7CF71F051AB700736B6E /* HCPEnvrionmentalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPEnvrionmentalVariables.m; sourceTree = "<group>"; };
+		E1CA7CF81F051AB700736B6E /* HSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSingleton.h; sourceTree = "<group>"; };
+		E1CA7CF91F051AB700736B6E /* IPLoadingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPLoadingTool.h; sourceTree = "<group>"; };
+		E1CA7CFA1F051AB700736B6E /* IPLoadingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPLoadingTool.m; sourceTree = "<group>"; };
+		E1CA7CFB1F051AB700736B6E /* KNBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseWebViewController.h; sourceTree = "<group>"; };
+		E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseWebViewController.m; sourceTree = "<group>"; };
+		E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTestWebViewController.h; sourceTree = "<group>"; };
+		E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTestWebViewController.m; sourceTree = "<group>"; };
+		E1CA7CFF1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
+		E1CA7D001F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E1CA7CAB1F05194700736B6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CA7CEA1F051A2500736B6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,7 +78,9 @@
 		E1CA7CA51F05194700736B6E = {
 			isa = PBXGroup;
 			children = (
+				E1CA7CF31F051A6800736B6E /* Business */,
 				E1CA7CB01F05194700736B6E /* KNCocoaTouchStaticLibrary */,
+				E1CA7CEE1F051A2500736B6E /* KNStaticBundle */,
 				E1CA7CAF1F05194700736B6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */,
+				E1CA7CED1F051A2500736B6E /* KNStaticBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +101,34 @@
 				E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */,
 			);
 			path = KNCocoaTouchStaticLibrary;
+			sourceTree = "<group>";
+		};
+		E1CA7CEE1F051A2500736B6E /* KNStaticBundle */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CEF1F051A2500736B6E /* Info.plist */,
+			);
+			path = KNStaticBundle;
+			sourceTree = "<group>";
+		};
+		E1CA7CF31F051A6800736B6E /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				E1CA7CF41F051AB700736B6E /* CMPayConst.h */,
+				E1CA7CF51F051AB700736B6E /* CMPayConst.m */,
+				E1CA7CF61F051AB700736B6E /* HCPEnvrionmentalVariables.h */,
+				E1CA7CF71F051AB700736B6E /* HCPEnvrionmentalVariables.m */,
+				E1CA7CF81F051AB700736B6E /* HSSingleton.h */,
+				E1CA7CF91F051AB700736B6E /* IPLoadingTool.h */,
+				E1CA7CFA1F051AB700736B6E /* IPLoadingTool.m */,
+				E1CA7CFB1F051AB700736B6E /* KNBaseWebViewController.h */,
+				E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */,
+				E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */,
+				E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */,
+				E1CA7CFF1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.h */,
+				E1CA7D001F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m */,
+			);
+			path = Business;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +151,23 @@
 			productReference = E1CA7CAE1F05194700736B6E /* libKNCocoaTouchStaticLibrary.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		E1CA7CEC1F051A2500736B6E /* KNStaticBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1CA7CF21F051A2500736B6E /* Build configuration list for PBXNativeTarget "KNStaticBundle" */;
+			buildPhases = (
+				E1CA7CE91F051A2500736B6E /* Sources */,
+				E1CA7CEA1F051A2500736B6E /* Frameworks */,
+				E1CA7CEB1F051A2500736B6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNStaticBundle;
+			productName = KNStaticBundle;
+			productReference = E1CA7CED1F051A2500736B6E /* KNStaticBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +178,11 @@
 				ORGANIZATIONNAME = hisun;
 				TargetAttributes = {
 					E1CA7CAD1F05194700736B6E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = FUV5KWMMAV;
+						ProvisioningStyle = Automatic;
+					};
+					E1CA7CEC1F051A2500736B6E = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = FUV5KWMMAV;
 						ProvisioningStyle = Automatic;
@@ -115,16 +202,46 @@
 			projectRoot = "";
 			targets = (
 				E1CA7CAD1F05194700736B6E /* KNCocoaTouchStaticLibrary */,
+				E1CA7CEC1F051A2500736B6E /* KNStaticBundle */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1CA7CEB1F051A2500736B6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E1CA7CAA1F05194700736B6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1CA7D0B1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m in Sources */,
+				E1CA7D091F051AB700736B6E /* KNTestWebViewController.m in Sources */,
+				E1CA7D011F051AB700736B6E /* CMPayConst.m in Sources */,
 				E1CA7CB31F05194700736B6E /* KNCocoaTouchStaticLibrary.m in Sources */,
+				E1CA7D031F051AB700736B6E /* HCPEnvrionmentalVariables.m in Sources */,
+				E1CA7D071F051AB700736B6E /* KNBaseWebViewController.m in Sources */,
+				E1CA7D051F051AB700736B6E /* IPLoadingTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1CA7CE91F051A2500736B6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1CA7D0C1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m in Sources */,
+				E1CA7D061F051AB700736B6E /* IPLoadingTool.m in Sources */,
+				E1CA7D081F051AB700736B6E /* KNBaseWebViewController.m in Sources */,
+				E1CA7D041F051AB700736B6E /* HCPEnvrionmentalVariables.m in Sources */,
+				E1CA7D021F051AB700736B6E /* CMPayConst.m in Sources */,
+				E1CA7D0A1F051AB700736B6E /* KNTestWebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +342,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
-				OTHER_LDFLAGS = "-ObjC";
+				ENABLE_BITCODE = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -235,9 +356,49 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = FUV5KWMMAV;
-				OTHER_LDFLAGS = "-ObjC";
+				ENABLE_BITCODE = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E1CA7CF01F051A2500736B6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KNStaticBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNStaticBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E1CA7CF11F051A2500736B6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = FUV5KWMMAV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KNStaticBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmcc.KNStaticBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -260,6 +421,16 @@
 				E1CA7CB91F05194700736B6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1CA7CF21F051A2500736B6E /* Build configuration list for PBXNativeTarget "KNStaticBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1CA7CF01F051A2500736B6E /* Debug */,
+				E1CA7CF11F051A2500736B6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
