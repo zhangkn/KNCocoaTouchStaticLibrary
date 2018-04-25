@@ -2,8 +2,6 @@
 //  PopLoadingDialog.h
 //  HappyMedicalCare
 //
-//  Created by apple on 14/10/21.
-//  Copyright (c) 2015年. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
