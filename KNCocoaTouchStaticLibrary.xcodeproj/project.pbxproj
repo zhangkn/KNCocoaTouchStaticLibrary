@@ -40,6 +40,7 @@
 		E109463B20906D1000A1E659 /* KNNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = E109463A20906D1000A1E659 /* KNNSString.m */; };
 		E109463C20906D1000A1E659 /* KNNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = E109463A20906D1000A1E659 /* KNNSString.m */; };
 		E1094640209072FD00A1E659 /* store_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E109463F209072FD00A1E659 /* store_add.png */; };
+		E10946452090783D00A1E659 /* KNFeedbackViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E109461620905E9300A1E659 /* KNFeedbackViewController.h */; };
 		E16E5DA91F051E7900851E01 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */; };
 		E16E5DAA1F051E7900851E01 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */; };
 		E16E5DAB1F051E7900851E01 /* HCPCMPayProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DA61F051E7900851E01 /* HCPCMPayProgress.xib */; };
@@ -70,6 +71,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				E10946452090783D00A1E659 /* KNFeedbackViewController.h in CopyFiles */,
 				E16E5DB21F051EE800851E01 /* KNTestWebViewController.h in CopyFiles */,
 				E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */,
 			);
