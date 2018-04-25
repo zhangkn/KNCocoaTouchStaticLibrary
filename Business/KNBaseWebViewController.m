@@ -3,15 +3,12 @@
 //  KNUIWebViewWithFileInput
 //
 //  Created by devzkn on 27/03/2017.
-//  Copyright © 2017 hisun. All rights reserved.
 //
 
 #import "KNBaseWebViewController.h"
-
-//#import "IPOpenShopMainViewController.h"
 #import "UIWebView+TS_JavaScriptContext.h"
 #import "HCPEnvrionmentalVariables.h"
-#import "CMPayConst.h"
+#import "Const.h"
 #import "IPLoadingTool.h"
 
 @interface KNBaseWebViewController ()
@@ -21,11 +18,6 @@
 @property (nonatomic,strong) UIAlertView *meaasgeAlertView;
 
 @property (nonatomic,assign) BOOL flagged;
-
-/**
- 此标识保证自己不被刚掉
- */
-//@property (nonatomic,assign) BOOL exitKNBaseWebViewControllerflagged;
 @end
 
 
@@ -173,67 +165,26 @@ static  CGFloat const statusBarViewHeight = 20;
 
 
 #pragma mark - TSWebViewDelegate
-
-
-
+//@import JavaScriptCore;
+//1、定义
+//@protocol JavaScriptObjectExport <JSExport>  使用这个定义与js 的交互。提供接口给js 调用
+// NSObject <JavaScriptObjectExport>
+//2、注入
+//JSContext *context=[self.webView valueForKeyPath:@"documentView.webView.mainFrame.javaScriptContext"];
+//context[@"__app"] = self.javaScriptObj;
 - (void)webView:(UIWebView *)webView didCreateJavaScriptContext:(JSContext *)ctx{
-    
-    
     //js 接口
     
     /**对于非ARC下, 为了防止循环引用, 我们使用__block来修饰在Block中使用的对象:
      *对于ARC下, 为了防止循环引用, 我们使用__weak来修饰在Block中使用的对象。
      */
     weakSelf(weakSelf); // 声明对象赋值self,使用__block修饰，目的是在block内部使用的时候不会造成控制器引用计数+1
-    
-    //    ctx[@"getDevice"] = ^() {//返回设备标识HeJuBao|iOS
-    //
-    //        NSString *str = [NSString stringWithFormat:@"%@|%@",[[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"],@"IOS"];
-    //        return str;
-    //    };
-    
-    //    ctx[@"getIosLocation"] = ^() {
-    //        if (blockSelf.localData.longItude.length == 0 || blockSelf.localData.longItude.length == 0) {//避免字典里的对象为空
-    //            [blockSelf.localData setLatItude:@""];
-    //            [blockSelf.localData setLongItude:@""];
-    //        }
-    //        NSString *locaData = [HSLocaDataModel getJsonWithLocalData:blockSelf.localData];//对象转化成json字符串
-    //        return locaData;
-    //    };
-    
-    //    ctx[@"getTermId"] = ^() {
-    //        //返回唯一标识
-    //        NSString *identifier = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleName"];
-    //        CMPayKeychainItemWrapper *wrapper = [[CMPayKeychainItemWrapper alloc] initWithIdentifier:identifier accessGroup:nil];
-    //        NSString *strMD5 = [wrapper  objectForKey:(__bridge id)kSecAttrAccount];//读取
-    //        if (strMD5 == nil || [strMD5 isEqualToString:@""])    {//获取不到的时候，进行设值
-    //            strMD5 = [MD5Generator MD5];
-    //            [wrapper setObject:strMD5 forKey:(__bridge id)kSecAttrAccount];
-    //        }
-    //        return strMD5;
-    //    };
-    
-    
     //// 回到登陆控制器
     ctx[@"backCoudIPSAPP"] = ^() {
-      
-//        self.exitKNBaseWebViewControllerflagged = YES;
-//        [weakSelf dismissViewControllerAnimated:YES completion:^{
-//            
-//        }];
-        
-//        [super dismissViewControllerAnimated:YES completion:^{
-//            
-//        }];//退出本控制器 都采用super的退出方式
-        
         [self exitSelf];
     };
     
 }
-
-
-
-
 
 - (void)exitSelf{
     
@@ -242,11 +193,6 @@ static  CGFloat const statusBarViewHeight = 20;
     }];
     
 }
-
-
-
-
-
 
 #pragma mark - webView代理方法
 
@@ -278,12 +224,8 @@ static  CGFloat const statusBarViewHeight = 20;
 
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
 {
-    //    [MBProgressHUD hideHUD];
-    //    NSLog(@"%@",);
     [IPLoadingTool StopLoading];
     //    网络连接超时，请刷新重试
-    //    确定 刷新
-    //    [HCPShowMessageTool ShowSysMessageBox:@"网络连接超时，请刷新重试" Delegate:self];
     NSString *strText =@"网络连接失败，请检查网络，或刷新重试";
     self.meaasgeAlertView = [[UIAlertView alloc]initWithTitle:@"" message:strText delegate:self cancelButtonTitle:@"返回" otherButtonTitles:@"刷新", nil];
     [self.meaasgeAlertView show];
@@ -386,17 +328,6 @@ static  CGFloat const statusBarViewHeight = 20;
     
     [super presentViewController:viewControllerToPresent animated:flag completion:completion];
 }
-
-
-//- (void)trueDismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion {
-//    
-//    // Avoiding iOS bug. UIWebView with file input doesn't work in modal view controller
-//    
-//    _flagged = NO;
-//    [self dismissViewControllerAnimated:flag completion:completion];
-//}
-
-
 
 
 
