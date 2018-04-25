@@ -5,3 +5,5 @@
 >* [kunnan blog](https://kunnan.github.io/)
 
 # 此静态库提供,app嵌入H5页面的通用模版。具体详见：http://blog.csdn.net/z929118967/article/details/73971895
+
+# [推荐使用git_subtree 进行引用静态库](https://kunnan.github.io/2018/04/25/git_subtree/)
