@@ -30,7 +30,6 @@ static HCPPopLoadingDialog *_sharedClient = nil;
     [HCPCMPayProgress class];
 }
 
-
 + (instancetype)sharedClient {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
