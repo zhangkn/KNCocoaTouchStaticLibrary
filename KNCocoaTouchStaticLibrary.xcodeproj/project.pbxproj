@@ -40,13 +40,14 @@
 		E109463B20906D1000A1E659 /* KNNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = E109463A20906D1000A1E659 /* KNNSString.m */; };
 		E109463C20906D1000A1E659 /* KNNSString.m in Sources */ = {isa = PBXBuildFile; fileRef = E109463A20906D1000A1E659 /* KNNSString.m */; };
 		E1094640209072FD00A1E659 /* store_add.png in Resources */ = {isa = PBXBuildFile; fileRef = E109463F209072FD00A1E659 /* store_add.png */; };
-		E10946452090783D00A1E659 /* KNFeedbackViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E109461620905E9300A1E659 /* KNFeedbackViewController.h */; };
+		E10946492091687E00A1E659 /* HCPEnvrionmentalVariables.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E10946472091685000A1E659 /* HCPEnvrionmentalVariables.h */; };
+		E109464A2091687E00A1E659 /* KNFeedbackViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E10946462091685000A1E659 /* KNFeedbackViewController.h */; };
+		E109464B2091687E00A1E659 /* KNTestWebViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E10946482091685000A1E659 /* KNTestWebViewController.h */; };
 		E16E5DA91F051E7900851E01 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */; };
 		E16E5DAA1F051E7900851E01 /* HCPCMPayProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */; };
 		E16E5DAB1F051E7900851E01 /* HCPCMPayProgress.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DA61F051E7900851E01 /* HCPCMPayProgress.xib */; };
 		E16E5DAC1F051E7900851E01 /* HCPPopLoadingDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA81F051E7900851E01 /* HCPPopLoadingDialog.m */; };
 		E16E5DAD1F051E7900851E01 /* HCPPopLoadingDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = E16E5DA81F051E7900851E01 /* HCPPopLoadingDialog.m */; };
-		E16E5DB21F051EE800851E01 /* KNTestWebViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */; };
 		E16E5DB61F051FD500851E01 /* hebaoGrayPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DB31F051FD500851E01 /* hebaoGrayPoint.png */; };
 		E16E5DB71F051FD500851E01 /* hebaoWhitePoint.png in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DB41F051FD500851E01 /* hebaoWhitePoint.png */; };
 		E16E5DB81F051FD500851E01 /* IMG_3604.JPG in Resources */ = {isa = PBXBuildFile; fileRef = E16E5DB51F051FD500851E01 /* IMG_3604.JPG */; };
@@ -71,8 +72,9 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E10946452090783D00A1E659 /* KNFeedbackViewController.h in CopyFiles */,
-				E16E5DB21F051EE800851E01 /* KNTestWebViewController.h in CopyFiles */,
+				E10946492091687E00A1E659 /* HCPEnvrionmentalVariables.h in CopyFiles */,
+				E109464A2091687E00A1E659 /* KNFeedbackViewController.h in CopyFiles */,
+				E109464B2091687E00A1E659 /* KNTestWebViewController.h in CopyFiles */,
 				E1CA7CB41F05194700736B6E /* KNCocoaTouchStaticLibrary.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -93,7 +95,6 @@
 		E109460920905C4000A1E659 /* KNBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNBaseViewController.h; sourceTree = "<group>"; };
 		E109460A20905C4000A1E659 /* KNBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNBaseViewController.m; sourceTree = "<group>"; };
 		E109461520905E9300A1E659 /* KNFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNFeedbackViewController.m; sourceTree = "<group>"; };
-		E109461620905E9300A1E659 /* KNFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNFeedbackViewController.h; sourceTree = "<group>"; };
 		E109461920905EA200A1E659 /* KNFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KNFeedbackViewController.xib; sourceTree = "<group>"; };
 		E109461B209061C200A1E659 /* deleteX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteX.png; sourceTree = "<group>"; };
 		E109461D209065E500A1E659 /* KNView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNView.h; sourceTree = "<group>"; };
@@ -113,6 +114,9 @@
 		E109463920906D1000A1E659 /* KNNSString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KNNSString.h; sourceTree = "<group>"; };
 		E109463A20906D1000A1E659 /* KNNSString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNNSString.m; sourceTree = "<group>"; };
 		E109463F209072FD00A1E659 /* store_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = store_add.png; path = ../../../../../../Documents/svn/HFX2017/HFXIPos/iPosLib/Res/store_add.png; sourceTree = "<group>"; };
+		E10946462091685000A1E659 /* KNFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNFeedbackViewController.h; path = PublicInterface/KNFeedbackViewController.h; sourceTree = "<group>"; };
+		E10946472091685000A1E659 /* HCPEnvrionmentalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HCPEnvrionmentalVariables.h; path = PublicInterface/HCPEnvrionmentalVariables.h; sourceTree = "<group>"; };
+		E10946482091685000A1E659 /* KNTestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KNTestWebViewController.h; path = PublicInterface/KNTestWebViewController.h; sourceTree = "<group>"; };
 		E16E5DA31F051E1400851E01 /* KNStaticBundle-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KNStaticBundle-Prefix.pch"; sourceTree = "<group>"; };
 		E16E5DA41F051E7900851E01 /* HCPCMPayProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPCMPayProgress.h; sourceTree = "<group>"; };
 		E16E5DA51F051E7900851E01 /* HCPCMPayProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPCMPayProgress.m; sourceTree = "<group>"; };
@@ -128,14 +132,12 @@
 		E1CA7CB21F05194700736B6E /* KNCocoaTouchStaticLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KNCocoaTouchStaticLibrary.m; sourceTree = "<group>"; };
 		E1CA7CED1F051A2500736B6E /* KNStaticBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KNStaticBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1CA7CEF1F051A2500736B6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E1CA7CF61F051AB700736B6E /* HCPEnvrionmentalVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCPEnvrionmentalVariables.h; sourceTree = "<group>"; };
 		E1CA7CF71F051AB700736B6E /* HCPEnvrionmentalVariables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCPEnvrionmentalVariables.m; sourceTree = "<group>"; };
 		E1CA7CF81F051AB700736B6E /* HSSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSSingleton.h; sourceTree = "<group>"; };
 		E1CA7CF91F051AB700736B6E /* IPLoadingTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPLoadingTool.h; sourceTree = "<group>"; };
 		E1CA7CFA1F051AB700736B6E /* IPLoadingTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPLoadingTool.m; sourceTree = "<group>"; };
 		E1CA7CFB1F051AB700736B6E /* KNBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNBaseWebViewController.h; sourceTree = "<group>"; };
 		E1CA7CFC1F051AB700736B6E /* KNBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNBaseWebViewController.m; sourceTree = "<group>"; };
-		E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNTestWebViewController.h; sourceTree = "<group>"; };
 		E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNTestWebViewController.m; sourceTree = "<group>"; };
 		E1CA7CFF1F051AB700736B6E /* UIWebView+TS_JavaScriptContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+TS_JavaScriptContext.h"; sourceTree = "<group>"; };
 		E1CA7D001F051AB700736B6E /* UIWebView+TS_JavaScriptContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+TS_JavaScriptContext.m"; sourceTree = "<group>"; };
@@ -173,7 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				E109461920905EA200A1E659 /* KNFeedbackViewController.xib */,
-				E109461620905E9300A1E659 /* KNFeedbackViewController.h */,
 				E109461520905E9300A1E659 /* KNFeedbackViewController.m */,
 				E109460920905C4000A1E659 /* KNBaseViewController.h */,
 				E109460A20905C4000A1E659 /* KNBaseViewController.m */,
@@ -255,7 +256,9 @@
 		E16E5DB11F051ED700851E01 /* PublicInterface */ = {
 			isa = PBXGroup;
 			children = (
-				E1CA7CFD1F051AB700736B6E /* KNTestWebViewController.h */,
+				E10946472091685000A1E659 /* HCPEnvrionmentalVariables.h */,
+				E10946462091685000A1E659 /* KNFeedbackViewController.h */,
+				E10946482091685000A1E659 /* KNTestWebViewController.h */,
 				E1CA7CFE1F051AB700736B6E /* KNTestWebViewController.m */,
 			);
 			name = PublicInterface;
@@ -317,7 +320,6 @@
 				E10945F320905A5000A1E659 /* knFeedback */,
 				E16E5DB91F051FDA00851E01 /* RES */,
 				E16E5DAE1F051E7D00851E01 /* Tool */,
-				E1CA7CF61F051AB700736B6E /* HCPEnvrionmentalVariables.h */,
 				E1CA7CF71F051AB700736B6E /* HCPEnvrionmentalVariables.m */,
 				E1CA7CF81F051AB700736B6E /* HSSingleton.h */,
 				E1CA7CF91F051AB700736B6E /* IPLoadingTool.h */,

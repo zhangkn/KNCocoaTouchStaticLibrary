@@ -38,9 +38,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
+  # s.license      = "MIT (example)"
+  s.license      = { :type => "MIT", :file => "LICENSE" } #LICENSE
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -52,10 +51,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "zhangkn" => "zhangkunnan@qinbaowan.com" }
+  s.author             = { "zhangkn" => "developerkunnan@gmail.com" }
   # Or just: s.author    = "zhangkn"
   # s.authors            = { "zhangkn" => "zhangkunnan@qinbaowan.com" }
-  # s.social_media_url   = "http://twitter.com/zhangkn"
+  s.social_media_url   = "http://twitter.com/zhangkn"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -76,10 +75,10 @@ Pod::Spec.new do |s|
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Specify the location from where the source should be retrieved.
-  #  Supports git, hg, bzr, svn and HTTP.
-  #
+  #  Supports git, hg, bzr, svn and HTTP. 不能用SSH地址
+  # tag ,一般都是从tag 获取内容，因此记得创建tag分支
 
-  s.source       = { :git => "http://EXAMPLE/KNCocoaTouchStaticLibrary.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhangkn/KNCocoaTouchStaticLibrary.git", :tag => "#{s.version}" } ##你的仓库地址，不能用SSH地址
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Classes", "Classes/**/*.{h,m}" # 代码的位置， Classes/*.{h,m} 表示 Classes 文件夹下所有的.h和.m文件
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
